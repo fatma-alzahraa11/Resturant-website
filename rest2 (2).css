@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/* Header start */
+header{
+    height: 100vh;
+
+    position: relative;
+}
+.header2{
+    font-weight: 400;
+    font-style: normal;
+background: rgb(0, 0, 0, 0.7) url(Black\ and\ Brown\ Simple\ Food\ YouTube\ Banner\ \(1\).png) center center fixed;
+background-size: cover;
+}
+.navbar ul li a{
+text-decoration: none;
+padding: 15px 20px;
+color: white;
+font-size: 20px;
+}
+.primary{
+    color: #e4b95b;
+}
+.navbar{
+    padding: 30px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+    
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid #e4b95b;
+}
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0,0, 0.6);
+    
+}
+header *{
+    z-index: 10;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+#hhh{
+    font-size: 40px;
+    color: white;
+    font-size: 50px;
+    margin: 40px;
+}
+#rrr{
+    margin: 20px 0 40px;
+    color: white;
+    color: rgb(193, 163, 98);
+    font-size: 30px;
+}
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(193, 163, 98);
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+/* Header end */
+                        /* About Section */
+ .container{
+  max-width: 1100px;
+ margin: auto;   
+ }
+    .yyy{
+        width: 50%;
+        height: 50%;
+    }
+    #about{
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f4f4f4;
+    }
+    #about .title
+    {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    #about h2
+    #menue h2
+    {
+        font-size: 40px;
+        color: #384838;
+        margin-bottom: 20px;
+    }
+    #about .title p{
+        font-size: 14px;
+        color: #9a9a9a;
+        font-weight: 600;
+    }
+    #about .about-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    #about .about-content img{
+        width: 450px;
+    }
+    #about .about-content p{
+        color: #9a9a9a;
+        margin-right: 7rem;
+        font-weight: 500;
+        line-height: 1.6;
+    }
+    /* offers start */
+    #offeers{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        background-color: #212121;
+    }
+   
+    #offeers p
+    {
+        font-size: 40px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    #offeers .offers-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .eee{
+        margin: 30px 0;
+    }
+
+    /* menue start */
+    /* #menue{
+        background: wheat;
+        /* padding: 5rem ; */
+    
+ /* .title{
+        text-align: center;
+        margin-bottom: 4rem;
+        
+    } */ */
+     .menue-items{
+        padding-right: 20%;
+     }
+
+     /* menue End */
